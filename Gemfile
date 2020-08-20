@@ -52,3 +52,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'responders'
+gem 'htmltoword', git: "https://github.com/karnov/htmltoword"
+gem 'prawn'
+gem 'cloudconvert-ruby'
+gem 'rest-client'
